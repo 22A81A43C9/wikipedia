@@ -1,0 +1,10 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: #f4f4f4;
+}

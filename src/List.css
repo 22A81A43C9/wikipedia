@@ -1,0 +1,16 @@
+li {
+  list-style: none;
+  padding: 10px 15px;
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  border-left: 8px solid transparent;
+  border-radius: 4px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background-color: #e6e6e6;
+}
