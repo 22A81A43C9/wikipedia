@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/nav" element={<Navbar />} /> 
          <Route exact path="/home" element={<Homepage/>} />
          <Route path="/counter" element={<Counter />} />
-        <Route path="wiki" element={<Wiki />} />
+        <Route path="/wikipedia" element={<Wiki />} />
        
       </Routes>
     </Router>
